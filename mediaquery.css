@@ -1,0 +1,40 @@
+h1{
+background-color:red;
+font-size: 60px
+}
+
+h2{
+font-size: 60px;
+background-color: purple
+}
+
+.mobileview{
+display:none;
+font-size:60px
+}
+
+@media(max-width: 768px){
+.mobileview{
+display:block
+}
+}
+
+
+
+@media only screen and (max-width:800px){
+h1{
+background-color: orange
+}
+
+body{
+background-color: yellow
+}
+
+
+
+@media (max-width:500px){
+h1{
+background-color: hotpink
+}
+
+s
